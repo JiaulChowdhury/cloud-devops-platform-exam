@@ -113,6 +113,3 @@ The `/crash` endpoint in the Node.js application was intentionally designed to c
 ## Conclusion
 
 This project demonstrates how to build and deploy a simple Node.js application to Kubernetes. It also shows how to troubleshoot and analyze an `OOMKilled` error caused by excessive memory consumption. 
-
-For future improvements, consider setting proper resource requests and limits in the Kubernetes deployment to optimize memory usage and avoid similar issues.
-```
