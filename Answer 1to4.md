@@ -92,6 +92,7 @@ pipeline {
         }
     }
 }
+```
 - **Credential Management:** Store AWS credentials in Jenkins > Manage Jenkins > Manage Credentials > Add Global Credential with ID: `aws-credentials` (AWS Access Key ID & Secret Access Key).
 - **Run the Pipeline:** Click `Save` > Click `Build Now`.
 - **Monitor Logs:** View build logs in the Jenkins console to troubleshoot any errors.
